@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -30,6 +29,8 @@ public class SceneLoader : MonoBehaviour
 
     private IEnumerator LoadAsynchronously (int sceneIndex)
     {
+        Screen.autorotateToLandscapeLeft = false;
+        Screen.autorotateToLandscapeRight = false;
         Application.backgroundLoadingPriority = ThreadPriority.Low;
         loadingScreen.SetActive(true);
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);

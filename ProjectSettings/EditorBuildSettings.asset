@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/2 - Gallery.unity
     guid: f1eaa4ed19d9d7842b2e835bf6f52351
   - enabled: 1
-    path: Assets/Scenes/3 - Photo_Viewer.unity
+    path: Assets/Scenes/3 - Image_Viewer.unity
     guid: 42aebec64f2de674b9bce0a4a18ca984
   m_configObjects: {}
